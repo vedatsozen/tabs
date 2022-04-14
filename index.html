@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="stil.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<div id="container">
+
+		<div id="topdiv">
+				<h1>ABOUT</h1>
+				<p>In Every Tab We Show Another Photo and Explanation</p>
+		</div>
+
+		<div id="bottomdiv">
+			
+			<div id="photodiv"><img id="photo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RRm_AnHHYogvYtRAUHXH99kfUbtJQv4QcA&usqp=CAU">
+
+			</div>
+
+			<div id="tabdiv">
+
+				<div id="tabs">
+
+				<button id="history" onclick="historyfunction()">History</button>
+				<button id="vision" onclick="visionfunction()">Vision</button>
+				<button id="goals" onclick="goalsfunction()">Goals</button>
+
+
+			</div>
+
+			<div id="explanation"></div>
+
+		</div>
+
+	</div>
+
+<script>
+
+document.getElementById("explanation").innerHTML = " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a velit et mauris molestie malesuada. Nullam suscipit felis cursus enim auctor, sed suscipit lacus laoreet. In scelerisque rhoncus neque, sit amet elementum nisi convallis in. Nam libero justo, suscipit sit amet volutpat non, lacinia vitae sem. Duis finibus nibh eget convallis aliquam. Fusce scelerisque, risus semper aliquet euismod, justo risus venenatis risus, vel finibus dui diam vel dui. Curabitur pellentesque, justo id tristique tincidunt, est nibh iaculis nisl, sit amet semper mauris nisi et metus. Suspendisse interdum vehicula elit, vitae hendrerit urna. Aenean quis gravida dui. Cras posuere nisl at neque tincidunt ultrices eu non nibh. Sed euismod id erat sit amet semper. Mauris fermentum pretium ex quis fermentum. Vivamus scelerisque metus non turpis pharetra mattis. In nulla turpis, elementum id quam eget, vehicula efficitur ante.  "
+
+function historyfunction() {
+
+document.getElementById("photo").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RRm_AnHHYogvYtRAUHXH99kfUbtJQv4QcA&usqp=CAU";
+
+document.getElementById("explanation").innerHTML = " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a velit et mauris molestie malesuada. Nullam suscipit felis cursus enim auctor, sed suscipit lacus laoreet. In scelerisque rhoncus neque, sit amet elementum nisi convallis in. Nam libero justo, suscipit sit amet volutpat non, lacinia vitae sem. Duis finibus nibh eget convallis aliquam. Fusce scelerisque, risus semper aliquet euismod, justo risus venenatis risus, vel finibus dui diam vel dui. Curabitur pellentesque, justo id tristique tincidunt, est nibh iaculis nisl, sit amet semper mauris nisi et metus. Suspendisse interdum vehicula elit, vitae hendrerit urna. Aenean quis gravida dui. Cras posuere nisl at neque tincidunt ultrices eu non nibh. Sed euismod id erat sit amet semper. Mauris fermentum pretium ex quis fermentum. Vivamus scelerisque metus non turpis pharetra mattis. In nulla turpis, elementum id quam eget, vehicula efficitur ante.  "
+
+
+
+}
+
+function visionfunction() {
+
+document.getElementById("photo").src = "https://i.pinimg.com/736x/82/ef/13/82ef13a336a0184d6cb90f9e8eeec9a0--jungfrau-mountain-alps-switzerland.jpg";
+
+document.getElementById("explanation").innerHTML = " Nulla tristique vehicula urna, eu pharetra lectus ullamcorper sit amet. Suspendisse potenti. Sed vel tempor lorem, nec pharetra nunc. Sed pharetra leo ut justo porta, id pretium ligula tincidunt. Vestibulum vel nunc tincidunt, viverra elit sed, fringilla ipsum. Donec quis mauris elit. Etiam condimentum sagittis euismod. Suspendisse quis augue nibh. Duis nulla nisi, venenatis nec dui quis, dignissim porta risus. Nam sit amet vestibulum risus. Pellentesque iaculis velit a venenatis feugiat. Suspendisse potenti. Ut vel dui eget quam dignissim molestie at vitae tortor. Quisque at tellus non justo sodales facilisis et sodales tortor.  "
+
+
+
+}
+
+function goalsfunction() {
+
+document.getElementById("photo").src = "https://mobimg.b-cdn.net/v3/fetch/10/10c06d36f8a6ad541539e236fd4f182a.jpeg";
+
+document.getElementById("explanation").innerHTML = " In tincidunt purus nec nibh pellentesque efficitur. Nam dictum ipsum nec nunc efficitur aliquet. Aliquam placerat tellus sit amet felis ultricies, nec viverra metus ornare. Nullam condimentum imperdiet urna, a consectetur arcu. Donec auctor non lorem nec consequat. Proin ut quam blandit, efficitur metus eget, gravida elit. Phasellus at ipsum at massa rutrum feugiat. Praesent egestas laoreet sodales. Sed dignissim libero non nisi rutrum imperdiet. Aliquam a vehicula eros. Proin non feugiat turpis. Cras vitae neque pellentesque, congue felis non, euismod neque. Morbi id accumsan neque. Ut facilisis dictum odio ac feugiat.   "
+
+}
+
+</script>
+
+</body>
+</html>
+
+
+

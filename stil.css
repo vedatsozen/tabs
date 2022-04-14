@@ -1,0 +1,118 @@
+body {
+	margin: auto;
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+	background-image: linear-gradient(to right, purple, black);
+}
+
+#container {
+
+	margin: auto;
+	margin-top: 50px;
+	height: 500px;
+	width: 800px;
+	border:5px double black;
+	padding:20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	background-color:#941C2F;
+
+}
+
+#topdiv {
+	height:20%;
+	width: 800px;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-evenly;
+	align-items: center;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+
+#bottomdiv {
+
+	margin: auto;
+	height:80%;
+	width:800px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	
+}
+
+#photodiv {
+	margin: auto;
+	width: 48%;
+	height: 100%;
+	background-color: blue;
+}
+
+#tabdiv {
+	margin: auto;
+	width: 48%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+
+
+h1 {
+	font-size:30px;
+	letter-spacing: 5px;
+	margin: auto;
+	color: white;
+}
+
+p {
+	font-size: 15px;
+	word-spacing: 1px;
+	margin: auto;
+	color: white;
+	
+}
+
+img {
+	height: 100%;
+	width: 100%;
+}
+
+#tabs {
+	height:13%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+}
+
+button {
+	width: 33.33%;
+	height: 100%;
+	cursor: pointer;
+	background-color: black;
+	color: white;
+}
+
+button:hover {
+	background-color: red;
+	color: white;
+}
+
+#explanation {
+	height:85%;
+	width: 100%;
+	background-color: orange;
+	font-size: 11px;
+	padding:10px;
+	text-align: justify;
+	box-sizing: border-box;
+}
